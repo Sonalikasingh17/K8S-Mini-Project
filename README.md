@@ -1,7 +1,8 @@
 
 ### **1. How to Incorporate Kubernetes in a CI/CD Workflow**
 
-In your GitHub Actions + AWS project, Kubernetes can replace or complement the deployment process. Here's how:
+In your GitHub Actions + AWS project, Kubernetes can replace or complement the deployment process. 
+Here's how:
 
 #### **Current Workflow Recap**
 - On pushing to the main branch, GitHub Actions builds the latest Docker image, pushes it to Amazon Elastic Container Registry (ECR), and deploys it on an EC2 server.
@@ -227,7 +228,7 @@ GKE, built by Google (the creators of Kubernetes), offers a polished Kubernetes 
 - Great if you want the latest Kubernetes features (GKE often gets them first).  
 - Ideal for startups and enterprises looking for a cost-effective managed Kubernetes solution.
 
----
+--- 
 
 ### **Comparison of Managed Kubernetes Services**
 
